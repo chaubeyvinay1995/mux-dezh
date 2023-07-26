@@ -1,0 +1,38 @@
+{
+  "baseUrl": "http://localhost:9030/",
+  "statusUrl": "api/v1/status?requestId=%s",
+  "server": {
+    "ip": "0.0.0.0",
+    "port": "9030"
+  },
+  "aws": {
+    "id": "AKIAYXQ263MRU5NFYHUD",
+    "token": "RePhAc8p5YK8GQr0PxzlNz4woe0KSowIBqDOV3dP",
+    "region": "us-east-2",
+    "bucket": "dezhab",
+    "workerBucket": "",
+    "imageBucket": "",
+    "mappingBucket": ""
+  },
+  "database": {
+    "master": {
+      "host": "localhost",
+      "username": "dezhab",
+      "password": "dezhab12345",
+      "name": "dezhab_user",
+      "port": "5432",
+      "idleConnections": "10",
+      "openConnections": "100",
+      "needsMigration": "true"
+    },
+    "slave": {
+      "host": "localhost",
+      "username": "dezhab",
+      "password": "dezhab12345",
+      "name": "dezhab_user",
+      "port": "5432",
+      "idleConnections": "10",
+      "openConnections": "100"
+    }
+  }
+}
